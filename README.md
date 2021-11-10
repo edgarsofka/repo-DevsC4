@@ -102,4 +102,29 @@ $	git merge Test
 $	git merge issues
 ```
 
+Arreglando Errores de Merge
+* Codigo Final con Test
+```html
+<html>
+<head>
+  <title>Mi pagina DangWebs</title>
+</head>
+<body>
+  <h1>Mi pagina web sofkiana</h1>
+  <p>Hola Mundo Me llama David Angarita</p>
+  <p id="txt">Hola Mundo Me llamo David</p>
+  
+  <script>
+    let texto = document.getElementById("txt").innerHTML;
+    if(texto == "Hola Mundo Me llamo David"){
+      console.log("El texto es correcto");
+    }else{
+      console.log("El texto es incorrecto");
+    }
+  </script>
+</body>
+</html>
+
+```
+
 * PARA RESOLVER ESTE EJERCICIO CADA UNO DE LOS APRENDICES DEBE crear una carpeta con su nombre dentro de esta carpeta y colocar la solución de su ejercicio.
