@@ -155,5 +155,10 @@ $	git commit -am "Arreglando error de merge con test"
 $	git commit -am "Arreglando merge final"
 ```
 
+Commit final y Push
+```
+$	git commit -am "commit final"
+$	git push -u origin main
+```
 
 * PARA RESOLVER ESTE EJERCICIO CADA UNO DE LOS APRENDICES DEBE crear una carpeta con su nombre dentro de esta carpeta y colocar la solución de su ejercicio.
