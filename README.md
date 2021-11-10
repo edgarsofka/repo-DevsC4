@@ -24,26 +24,74 @@ $	git checkout -b issues
 
 Moverse a la rama Dev
 ```
-$ git checkout Dev
-$ git commit -am "Agregue texto en etiqueta P"
+$	git checkout Dev
+$	git commit -am "Agregue texto en etiqueta P"
 ```	
+Codigo:
+```html
+<html>
+<head>
+  <title>Mi pagina DangWebs</title>
+</head>
+<body>
+  <h1>Mi pagina web sofkiana</h1>
+  <p>Hola Mundo Me llama David Angarita</p>
+</body>
+</html>
+
+```
 
 Moverse a la rama Test
 ```
-$ git checkout Test
-$ git  commit -am "Agregue Prueba de texto y script"
+$	git checkout Test
+$	git  commit -am "Agregue Prueba de texto y script"
 ```	
+Codigo:
+```html
+<html>
+<head>
+  <title>Mi pagina web1</title>
+</head>
+<body>
+  <h1>Mi pagina web sofkiana</h1>
+  <p id="txt">Hola Mundo Me llamo David</p>
+  
+  <script>
+    let texto = document.getElementById("txt").innerHTML;
+    if(texto == "Hola Mundo Me llamo David"){
+      console.log("El texto es correcto");
+    }else{
+      console.log("El texto es incorrecto");
+    }
+  </script>
+</body>
+</html>
+
+```
 
 Moverse a la rama issues
 ```
-$ git checkout issues
-$ git commit -am "Agregue texto que dara error en merge"
-```	
+$	git checkout issues
+$	git commit -am "Agregue texto que dara error en merge"
+```
+Codigo:
+```html
+<html>
+<head>
+  <title>Mi pagina Tiene un error</title>
+</head>
+<body>
+  <h1>Mi pagina web sofkiana</h1>
+  <p>Al hacer merge me generara un error</p>
+</body>
+</html>
+```
 
 Moverse a la rama main
 ```
-$ git checkout main
-$ git commit -am "Agregue readme.md"
+$	git checkout main
+$	git commit -am "Agregue readme.md"
+$	git commit -am "Agregue cambios de readme.md"
 ```	
 
 * PARA RESOLVER ESTE EJERCICIO CADA UNO DE LOS APRENDICES DEBE crear una carpeta con su nombre dentro de esta carpeta y colocar la solución de su ejercicio.
