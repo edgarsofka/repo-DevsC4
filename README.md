@@ -92,6 +92,7 @@ Moverse a la rama main
 $	git checkout main
 $	git commit -am "Agregue readme.md"
 $	git commit -am "Agregue cambios de readme.md"
+$	git commit -am "Cambios nuevos del readme.md"
 ```	
 
 * PARA RESOLVER ESTE EJERCICIO CADA UNO DE LOS APRENDICES DEBE crear una carpeta con su nombre dentro de esta carpeta y colocar la solución de su ejercicio.
