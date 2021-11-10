@@ -19,12 +19,31 @@ Crear Ramas
 ```
 $	git checkout -b Dev
 $	git checkout -b Test
-$	git checkout -b Issues
+$	git checkout -b issues
 ```
 
 Moverse a la rama Dev
 ```
 $ git checkout Dev
+$ git commit -am "Agregue texto en etiqueta P"
+```	
+
+Moverse a la rama Test
+```
+$ git checkout Test
+$ git  commit -am "Agregue Prueba de texto y script"
+```	
+
+Moverse a la rama issues
+```
+$ git checkout issues
+$ git commit -am "Agregue texto que dara error en merge"
+```	
+
+Moverse a la rama main
+```
+$ git checkout main
+$ git commit -am "Agregue readme.md"
 ```	
 
 * PARA RESOLVER ESTE EJERCICIO CADA UNO DE LOS APRENDICES DEBE crear una carpeta con su nombre dentro de esta carpeta y colocar la solución de su ejercicio.
